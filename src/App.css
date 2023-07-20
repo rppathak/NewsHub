@@ -1,38 +1,38 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster+Two:wght@700&family=Roboto:wght@700&display=swap');
+
+.head1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 35px;
+}
+
+.head2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+.nav {
   text-align: center;
+  width: 100%;
+  top: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-expand-lg {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-item {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-nav {
+  margin-right: 20px;
+}
+
+.head-3 {
+  font-family: 'Abril Fatface', cursive;
+  background-color: #d91124;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 25px;
+  padding-inline: 35px;
 }
